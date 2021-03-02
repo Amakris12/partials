@@ -1,0 +1,68 @@
+$background-color: #B482FF;
+$back-images:url('../images/yellow.jfif');
+$backdrop:white;
+$border:white .3rem groove;
+$alignment:center;
+$font-fam: futuristic;
+@font-face {
+    font-family: futuristic;
+    src: url("../font/sofachrome\ rg.ttf");
+}
+body{
+    font-family: $font-fam;
+    overflow-x: hidden;
+    div{
+        width: 95rem;
+        background-image: $back-images;
+        margin-left: auto;
+        margin-right: auto;
+        border: $border;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    input{
+        background-color: $background-color;
+        color: white;
+        height: 5rem;
+        position: relative;
+        left: 7rem;
+        top: 1.8rem;
+        border: $border;
+    }
+    P{
+        color: #B482FF;
+        position: relative;
+        left: -10rem;
+        top: 3.5rem;
+        font-size: 1.4rem;
+        text-decoration: underline;
+
+    }
+    a{
+        color: #B482FF; font-size: 1.4rem;
+        position: relative;
+        left: 5rem;
+        top:.4rem;
+        font-size: 1.4rem;
+    }
+    #atag2{
+        color: #B482FF;
+        position: relative;
+        left: 22rem;
+        top: -1.7rem;
+    }
+    #ptag{
+        color: #B482FF;
+        position: relative;
+        top: 2rem;
+        left: 18rem;
+        text-align: $alignment;
+    }
+    li{
+        color: transparent;
+    }
+}

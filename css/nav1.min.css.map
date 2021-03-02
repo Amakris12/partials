@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,AAAA,CACD,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,YAAY,CAAE,IAAI,CAClB,WAAW,CAAE,IAAI,CACjB,gBAAgB,CAND,OAAO,CAUzB,AATD,AAMI,KANC,CAMD,EAAE,AAAA,CACE,gBAAgB,CARL,OAAO,CASrB",
+    "sources": [
+        "../partial/nav1.scss"
+    ],
+    "names": [],
+    "file": "nav1.min.css"
+}
